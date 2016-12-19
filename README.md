@@ -1,0 +1,2 @@
+# TaskApp
+3 classes related to Task (a description of type String), TaskWithDeadline (a description of type String, and a dueDate of type java.util.Date), RecurringTask  (a description of type String, and an numTimesCompleted of type int). Each of the 3 classes will have a boolean completeTask() method. The main method manages an ArrayList of tasks, and iterates through each task in the list, calling the completeTask() method. If the method returns true, remove the task from the list. 
